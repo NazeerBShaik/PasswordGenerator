@@ -30,6 +30,7 @@ body{
 }
 
 .inputBox h2{
+    padding: 10px;
     font-size: 30px;
     color:darkblue
 }
@@ -58,6 +59,7 @@ body{
 }
 
 .inputBox #btn, #clear_btn{
+    margin: 5px;
     position: relative;
     cursor: pointer;
     color:#fff;
