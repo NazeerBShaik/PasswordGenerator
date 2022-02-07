@@ -72,7 +72,7 @@ body{
     background: orangered;
 }
 
-.inputBox #btn:active, #btn:active{
+.inputBox #btn:active, #clear_btn:active{
     background:white;
 }
 
@@ -84,10 +84,6 @@ body{
     opacity: 0.5;
 
 }
-/* .fa-copy:hover{
-    opacity: 0.8;
-} */
-
 .alertBox{
     position: fixed;
     top: 0;
