@@ -110,10 +110,10 @@ body{
 #copyStatus{
     margin-bottom: 10px;
 }
-.back{
-    position: absolute;
-    left: 40px;
 
+.btns{
+    display:flex;
+    justify-content: space-between;
 }
 a{
     color: white;
