@@ -1,8 +1,5 @@
 function getPassword(){
-
-
     var copyIcon = document.getElementById("copyIcon")
-
     var chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()+?><:{}[]";
     var passwordLength = 16;
     var password = "";
@@ -25,12 +22,18 @@ copyIcon.addEventListener("click",function(){
     c.select()
     document.execCommand("copy")
     if(c.value.trim() === ""){
-        copyStatus.innerText = "password is empty"
-        
 
+        copyStatus.innerText = "password is empty"
     }else{
         copyIcon.style.opacity = "1"
         copyStatus.innerText = "copied!"
+        
     }
     console.log(document.getElementById("password").value)
+})
+
+var clearBtn = document.getElementById("clear_btn")
+
+clearBtn.addEventListener('click', function() {
+    document.getElementById("password").value = ""
 })
